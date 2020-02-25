@@ -1,0 +1,90 @@
+/* Styling Text */
+
+p {
+  color: rgb(255,0,0);
+  font-family: 'Open Sans Condensed', monospace;
+  font-style: italic;
+  font-weight: 200;
+  text-transform: none;
+  text-align: left;
+  line-height: 2;
+}
+
+a {
+  width: 150px;
+  background-color: red;
+  font-family: 'Open Sans Condensed', monospace;
+  color: white;
+  border-radius: 4px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: cyan;
+}
+
+
+/* Styling Boxes */
+#boxstyling {
+  background-color: rgb(255,255,0);
+  color: blue;
+  background-image: url(http://bit.do/bg-image-demo);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-size: 30px;
+  width: 130px;
+  padding-left: 20px;
+  border: 6px solid blue;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+#boxstyling:hover {
+  background-size: 50px;
+}
+
+#gradient {
+  width: 300px;
+  height: 200px;
+  background: rgba(52,247,208,1);
+background: -moz-linear-gradient(left, rgba(52,247,208,1) 0%, rgba(115,93,240,1) 29%, rgba(237,112,222,1) 51%, rgba(24,240,168,1) 71%, rgba(39,64,230,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,247,208,1)), color-stop(29%, rgba(115,93,240,1)), color-stop(51%, rgba(237,112,222,1)), color-stop(71%, rgba(24,240,168,1)), color-stop(100%, rgba(39,64,230,1)));
+background: -webkit-linear-gradient(left, rgba(52,247,208,1) 0%, rgba(115,93,240,1) 29%, rgba(237,112,222,1) 51%, rgba(24,240,168,1) 71%, rgba(39,64,230,1) 100%);
+background: -o-linear-gradient(left, rgba(52,247,208,1) 0%, rgba(115,93,240,1) 29%, rgba(237,112,222,1) 51%, rgba(24,240,168,1) 71%, rgba(39,64,230,1) 100%);
+background: -ms-linear-gradient(left, rgba(52,247,208,1) 0%, rgba(115,93,240,1) 29%, rgba(237,112,222,1) 51%, rgba(24,240,168,1) 71%, rgba(39,64,230,1) 100%);
+background: linear-gradient(to right, rgba(52,247,208,1) 0%, rgba(115,93,240,1) 29%, rgba(237,112,222,1) 51%, rgba(24,240,168,1) 71%, rgba(39,64,230,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34f7d0', endColorstr='#2740e6', GradientType=1 );
+border-radius: 130px 50px 130px 50px;
+-moz-border-radius: 130px 50px 130px 50px;
+-webkit-border-radius: 130px 50px 130px 50px;
+border: 5px double #dbffee;
+-webkit-box-shadow: 13px 12px 0px 4px rgba(48,117,108,1);
+-moz-box-shadow: 13px 12px 0px 4px rgba(48,117,108,1);
+box-shadow: 13px 12px 0px 4px rgba(48,117,108,1);
+text-align: center;
+color: white;
+font-family: sans-serif;
+font-size: 30px;
+}
+
+#balloon {
+  float: left;
+  width: 300px;
+  padding: 50px;
+  color: rgb(0,204,255);
+  font-weight: bold;
+  border: dotted;
+  background-color: rgb(222, 240, 225);
+  background-image: url(https://4vector.com/i/free-vector-helium-blue-balloon-clip-art_106719_Helium_Blue_Balloon_clip_art_small.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px;
+  margin:50;
+
+}
+
+#balloon:hover {
+  background-image: url(https://static.abeka.com/Shared/ABeka/ProductImages/ClipArt/215635/150x150y160fx160fh-w/215635-Popping-Balloon-with-a-pin-color-png.png);
+  background-size: 80px;
+}
